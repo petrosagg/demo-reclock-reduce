@@ -1,0 +1,10 @@
+[package]
+name = "demo-reclock-reduce"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = [ "derive" ] }
+timely = { git = "https://github.com/TimelyDataflow/timely-dataflow", features = ["bincode"] }
+differential-dataflow = { git = "https://github.com/TimelyDataflow/differential-dataflow" }
+dogsdogsdogs = { git = "https://github.com/TimelyDataflow/differential-dataflow" }
